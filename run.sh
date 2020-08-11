@@ -1,6 +1,6 @@
 apt update && apt full-upgrade
-apt install rename
-mv -v 1.hasrc
-mv -f -v * ~/
+mv -f * ~/
+mv -v -f 1.bashrc .bashrc
 chmod +x HH.sh
 chmod +x RW.sh
+reset
