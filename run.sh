@@ -6,4 +6,5 @@ chmod +x HH.sh
 chmod +x RW.sh
 reset
 rm -r ParroTools
+rm -r run.sh
 clear
