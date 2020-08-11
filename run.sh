@@ -1,6 +1,10 @@
 apt update && apt full-upgrade
 apt install python && apt install python3 && apt install python-pip && apt install python3-pip && apt install wget
 apt update && apt full-upgrade
+apt update && apt full-upgrade
+apt update && apt full-upgrade
+apt update && apt full-upgrade
+apt update && apt full-upgrade
 git clone https://github.com/AdrMXR/KitHack.git
 git clone https://github.com/FluxionNetwork/fluxion.git
 mv -v fluxion flux
