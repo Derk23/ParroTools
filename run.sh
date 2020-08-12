@@ -23,7 +23,7 @@ rm -r run.sh
 clear
 cd flux
 chmod +x fluxion.sh
-./fluxion -i
+./fluxion.sh -i
 cd ..
 apt update && apt full-upgrade
 apt update && apt full-upgrade
