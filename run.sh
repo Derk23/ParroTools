@@ -5,18 +5,11 @@ apt update && apt full-upgrade
 apt update && apt full-upgrade
 apt update && apt full-upgrade
 apt install python && apt install python3 && apt install python-pip && apt install python3-pip && apt install wget
-git clone https://github.com/AdrMXR/KitHack.git
 git clone https://github.com/FluxionNetwork/fluxion.git
 mv -v fluxion flux
-mv -v KitHack tools
 mv start1.sh flux
 cd flux
 mv -v start1.sh start.sh
-chmod +x start.sh
-cd ..
-mv start2.sh tools
-cd tools
-mv -v start2.sh start.sh
 chmod +x start.sh
 cd ..
 mv -f * ~/
@@ -32,12 +25,9 @@ cd flux
 chmod +x fluxion.sh
 ./fluxion -i
 cd ..
-cd tools
-chmod +x install.sh
-./install.sh
-cd ..
 apt update && apt full-upgrade
 apt update && apt full-upgrade
 apt update && apt full-upgrade
+apt autoremove
 reset
 clear
