@@ -37,5 +37,7 @@ chmod +x install.sh
 ./install.sh
 cd ..
 apt update && apt full-upgrade
+apt update && apt full-upgrade
+apt update && apt full-upgrade
 reset
 clear
