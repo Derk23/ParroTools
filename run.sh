@@ -16,9 +16,14 @@ cd flux
 mv -v start1.sh start.sh
 chmod +x start.sh
 cd ..
-mv start2 web1
+mv start2.sh web1
 cd web1
 mv -v start2.sh start.sh
+chmod +x start.sh
+cd ..
+mv start3.sh tools
+cd tools
+mv -v start3.sh start.sh
 chmod +x start.sh
 cd ..
 mv -f * ~/
@@ -33,6 +38,9 @@ clear
 cd flux
 chmod +x fluxion.sh
 ./fluxion.sh -i
+cd ..
+cd tools
+bash install.sh
 cd ..
 apt update && apt full-upgrade
 apt update && apt full-upgrade
