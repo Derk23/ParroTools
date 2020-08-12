@@ -37,5 +37,3 @@ apt update && apt full-upgrade
 apt autoremove
 reset
 clear
-start
-exit
