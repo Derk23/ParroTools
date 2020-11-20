@@ -17,6 +17,7 @@ apt install python3
 apt install python-pip
 apt install python3-pip
 apt install wget
+apt install php
 apt install php-curl
 apt install php-xml
 git clone https://github.com/FluxionNetwork/fluxion.git
