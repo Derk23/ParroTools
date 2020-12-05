@@ -44,7 +44,6 @@ chmod +x start.sh
 cd ..
 mv -f * ~/
 cd ..
-mv -v -f 1.bashrc .bashrc
 chmod +x HH.sh
 chmod +x RW.sh
 reset
