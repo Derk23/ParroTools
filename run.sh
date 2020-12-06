@@ -55,6 +55,7 @@ cd flux
 cd ..
 cd phish1
 pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 cd ..
 apt update && apt full-upgrade
 apt update && apt full-upgrade
